@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 20px 20px 30px;
+}
+.products{
+    margin-top: 40px ;
+}
+.pr{
+    display: flex;
+    flex-wrap: wrap;
+}
+.pr-build{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    /* padding: 10px; */
+    margin: 10px;
+    background-color: azure;
+    box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.2);
+}
+.pr-build img{
+    width: 400px;
+    height: 200px;
+    box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.2);
+}
+.pr-build-t{
+    margin: 15px;
+}
+.pr-name{
+    margin-bottom: 8px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.pr-desc{
+    margin-bottom: 8px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.pr-price{
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.pr-build-t p{
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.pr-build-t button{
+    width: 100px;
+    border: 0;
+    padding: 10px;
+    margin-left: 5px;
+    background-color: white;
+    box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.2);
+}
+.ad-cart{
+    width: 100px;
+
+}
+.filter span {
+    margin-right: 5px;
+}

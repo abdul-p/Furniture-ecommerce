@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    padding: 10px 10px 20px 10px;
+    background-color: whitesmoke;
+}
+.top button{
+    width: 70px;
+    padding: 7px;
+}
+.top h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main{
+    display: flex;
+    height: 70vh;
+    background-image: url(./image/p6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 72%;
+} 
+.main-ad{
+    text-align: justify;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    padding: 20px;
+    margin: 40px 20px 20px 60px;
+}
+section {
+    padding: 20px;
+}
+section p{
+    width: 700px;
+}
+.chat{
+
+}
+.message{
+    height: 400px;
+    width: 500px;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(185, 185, 185);
+    box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.2);
+}
+.message p {
+    border: 2px solid blue;
+    border-radius: 5px;
+    background-color: rgb(232, 232, 232);
+    max-width: 300px;
+    padding: 3px;
+    margin-bottom: 5px;
+}
+.message .left p{
+    border: 2px solid green;
+
+}
+.input{
+    margin: 20px 10px 10px 20px;
+}
+.text {
+    padding: 5px;
+}
+.submit{
+    padding: 5px;
+}
+.left{
+    float: right;
+}
